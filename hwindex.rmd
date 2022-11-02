@@ -3,12 +3,10 @@ title: "Adrianne Qi"
 output: html_document
 ---
 
-Hi I am a second year MPH student at Columbia Mailman School of Public Health
+Hi I am a second year MPH student at Columbia Mailman School of Public Health.
 
-Click Here to see my Professional Resume
+My Research interest is in Nutritional Epidemiology.
 
-Click Here to see Stewie the dog
+Click [Here](/Adrianne Junyu Qi Resume.pdf) to see my Professional Resume
 
-```{r}
-
-```
+Click [Here](Stewie.rmd) to see Stewie the chewbacca
