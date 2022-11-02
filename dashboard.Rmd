@@ -18,7 +18,7 @@ library(p8105.datasets)
 
 ### 
 
-### NY NOAA dataset with sample size of 1000
+### NY NOAA dataset with selection of a random sample size of 1000 since the original file is too big to create neat graphs
 
 ```{r}
 data("ny_noaa")
