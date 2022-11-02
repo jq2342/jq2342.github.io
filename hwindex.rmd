@@ -7,6 +7,4 @@ Hi I am a second year MPH student at Columbia Mailman School of Public Health.
 
 My Research interest is in Nutritional Epidemiology.
 
-Click [Here](./Adrianne Junyu Qi Resume.pdf) to see my Resume
-
-Click [Here](Stewie.rmd) to see Stewie the chewbacca
+Click [here](./EducationalBackground.Rmd) to see the brief Resume, [here](./Adrianne Junyu Qi Resume.pdf) to see the complete PDF copy.
