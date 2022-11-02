@@ -4,4 +4,4 @@ author: "Junyu QI"
 date: "`r Sys.Date()`"
 output: html_document
 ---
-
+<img src="Stewie/IMG_6094.JPG" style="width:75%">

@@ -1,0 +1,49 @@
+---
+title: "EducationalBackground"
+author: "Junyu QI"
+date: "`r Sys.Date()`"
+output: "html_document" 
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+### Adrianne Junyu Qi
+
+New York, NY, 10024 (347) 277-7799 \|
+[jq2342\@cumc.columbia.edu](mailto:jq2342@cumc.columbia.edu){.email}
+
+-   Education
+
+    -   Columbia University, Mailman School of Public Health, New York,
+        NY Master of Public Health in Epidemiology Relevant Coursework:
+        Research Methods and Applications, Applied Epidemiologic
+        Analysis, Public Health Interventions, Presentation and
+        Visualization of Epidemiological Data,
+
+    -   Michigan State University, East Lansing, MI Dec 2019 Bachelor of
+        Science in Nutritional Science, Certificate in Biomedical &
+        Molecular Nutritional Science GPA: 3.68 Awards: Dean's List
+
+-   Experience
+
+    -   **BGI Group**, Shenzhen, Guangdong China
+        Executive Assistant to CEO						
+
+        -   Managed 3 COVID-19 testing sites that involved site
+            planning, lab logistic management, and administrative
+            support.
+
+        -   Researched, analyzed and translated literature studies to
+            create health informative content about infectious and
+            genetic diseases on Social Media.							
+
+        -   Created daily updates on COVID-19 pandemic for the general
+            public and prepared 20 plus educational speech drafts for
+            the CEO.
+
+        -   Provided 24/7 administrative support to the CEO including
+            assisting in the development of proposals, fact sheets,
+            briefing materials, executive summaries.
+
+Languages: English, Mandarin, and Cantonese Software: SAS, STATA, R."
