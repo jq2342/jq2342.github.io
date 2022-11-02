@@ -1,4 +1,5 @@
 ---
+rmarkdown::render_site()---
 title: "Adrianne Qi"
 output: html_document
 ---
@@ -7,4 +8,4 @@ Hi I am a second year MPH student at Columbia Mailman School of Public Health.
 
 My Research interest is in Nutritional Epidemiology.
 
-Click [here](./EducationalBackground.Rmd) to see the brief Resume, [here](./Adrianne Junyu Qi Resume.pdf) to see the complete PDF copy.
+Click [here](./EducationalBackground.Rmd) to see the brief Resume, [here](./Adrianne%20Junyu%20Qi%20Resume.pdf) to see the complete PDF copy.
