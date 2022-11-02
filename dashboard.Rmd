@@ -1,0 +1,63 @@
+---
+title: "HW4"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+### Load Packages
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+library(p8105.datasets)
+```
+
+### 
+
+### NY NOAA dataset with sample size of 1000
+
+```{r}
+data("ny_noaa")
+
+ny_noaa = 
+  ny_noaa %>% 
+  as_tibble(ny_noaa) %>%
+  sample_n(1000)
+```
+
+    Column {data-width=650}
+    -----------------------------------------------------------------------
+
+### Chart A Scatterplot of minimum temperature vs maximum temperature
+
+```{r}
+ny_noaa %>%
+  mutate(text_label = str_c("minimum: C ",tmin, "\nmaximum: C ", tmax,  "\ndate:", date)) %>% 
+  plot_ly(
+    x =~tmin , y = ~tmax, type = "scatter", mode = "markers",
+    color = ~id, text = ~text_label, alpha = 0.5)
+```
+
+    Column {data-width=350}
+    -----------------------------------------------------------------------
+
+### Chart B Bar plot showing number of observation every station collected
+
+```{r}
+ny_noaa %>% 
+  count(id) %>% 
+  mutate(id = fct_reorder(id, n))  %>% 
+  plot_ly(x = ~id, y = ~n, color = ~id, type = "bar", colors = "viridis")
+```
+
+### Chart C Box plot showing the distribution of precipitation through 1981-2010
+
+```{r}
+ny_noaa %>% 
+  separate(date, into = c("year", "month", "day")) %>%
+  mutate(text_label = str_c("year: ",year, "\nprecipitation: ", prcp)) %>% 
+  plot_ly(x = ~year, y = ~prcp,  type = "box", colors = "viridis")

@@ -1,5 +1,4 @@
 ---
-rmarkdown::render_site()---
 title: "Adrianne Qi"
 output: html_document
 ---

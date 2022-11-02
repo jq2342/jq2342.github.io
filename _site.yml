@@ -5,13 +5,14 @@ navbar:
   right:
     - text: "About"
       href: https://www.linkedin.com/feed/
+    - text: "Dashboard"
+      href: dashboard.html
     - text: "Educational Background"
       href: EducationalBackground.html
     - icon: fa-envelope fa-lg
       href: mailto:<jq2342@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/jq2342/
- 
 output:
   html_document:
     theme: darkly
